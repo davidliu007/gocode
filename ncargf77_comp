@@ -1,0 +1,10 @@
+ncargf77 -o GP_bitmap Genetic_Programming_Tree_Population_bitmap.f90
+ncargf90 -o GP_bitmap Genetic_Programming_Tree_Population_bitmap.f90
+
+From "docs.nersc.gov/applications/ncargraphics/
+
+NCL is available on Cori as the module ncl, which provides the NCAR Graphics compiler wrappers ncargf77, ncargf90, and ncargcc. The ncar module defines the environment variables NCAR and NCARC which contain the full list of compiler switches required to compile NCAR Graphics applications.
+
+on NCCS
+module avail
+module add ncl/6.6.2
